@@ -11,8 +11,8 @@ const App: React.FC = () => {
             <Navbar/>
             <div className="container">
                 <Routes>
-                    <Route path="/" element={<TodosPage/>}/>
-                    <Route path="/about" element={<AboutPage/>}/>
+                    <Route path="/todo-typescript" element={<TodosPage/>}/>
+                    <Route path="/todo-typescript/about" element={<AboutPage/>}/>
                 </Routes>
             </div>
         </BrowserRouter>
